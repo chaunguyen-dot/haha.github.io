@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{background-color:#9DC67B!important;
+	color:#FFFFFF!important;
+}
+
+.payment{color:#FFFFFF!important}
+.logo{
+	position:fixed;
+	padding-left:0px;
+	float:left!important;
+}
+.bar{
+	height:100px;
+	background-color:#837474;
+	float:right!important;
+}
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font: 300 60px 'Oswald', sans-serif;
+  letter-spacing: 6px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.soluong{
+	width:15%;
+	height:30px;
+	background-color:#A05455!important;
+	margin-bottom:10px;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+
+

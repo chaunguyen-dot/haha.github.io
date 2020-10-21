@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>Dalat.aste</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow Semi Condensed"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+
+    <!-- ! bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- !swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/style-button-home.css" />
+
+    <link rel="stylesheet" href="../css/menu-style.css"/>
+
+    <link rel="stylesheet" href="../css/home.css" />
+    <link href="../css/thu-vien.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="biggest">
+      <div id="logo">
+        <img src="../img/logo-final-white.png" alt="logo" style="width:100%"/>
+      </div>
+      <div id="burger-menu">
+        <div class="overlay-navigation">
+          <nav role="navigation">
+            <ul>
+              <li>
+                <a href="home.html" style="font-size: 22px">Trang chủ</a>
+              </li>
+              <!-- san pham dropdown -->
+              <li>
+                <div
+                  class="dropdown"
+                  style="margin-left: 6vw; margin-top: 46.1vh"
+                >
+                  <a href="sanpham.html" class="meme">Sản phẩm</a>
+                  <div class="dropdown-content">
+                    <a
+                      href="#"
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >HỒNG</a
+                    >
+                    <a
+                      href="#"
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >DÂU</a
+                    >
+                    <a
+                      href="#"
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >CÀ CHUA</a
+                    >
+                    <a
+                      href="#"
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >Bơ</a
+                    >
+                    <a
+                      href="#"
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >VIỆT QUẤT</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <!-- end sp dropdown -->
+              <li>
+                <a href="" class="ttsk" style="font-size: 22px"
+                  >Tin tức- Sự kiện</a
+                >
+              </li>
+              <li>
+                <div
+                  class="dropdown"
+                  style="margin-left: 6vw; margin-top: 46.1vh"
+                >
+                  <a href="dangnhap.html" class="meme">Tài khoản</a>
+                  <div class="dropdown-content baba">
+                    <a
+                      href="dangnhap.html"
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >Đăng nhập/ Đăng kí</a
+                    >
+                    <a
+                      href=""
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >Thông tin tài khoản</a
+                    >
+                    <a
+                      href=""
+                      style="font-size: 22px; color: #ff7200"
+                      class="concon"
+                      >đơn hàng</a
+                    >
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="lienhe.html" style="font-size: 22px">Liên hệ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <section class="home">
+          <div class="open-overlay">
+            <span class="bar-top"></span>
+            <span class="bar-middle"></span>
+            <span class="bar-bottom"></span>
+          </div>
+        </section>
+      </div>
+
+      <div class="navbar navbar-expand-lg navbar-light middle-bar col-sm-12">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#slide__1">Hồng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slide__2">Dâu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slide__3">Cà chua</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slide__4">Bơ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slide__5">Việt quất</a>
+            </li>
+            <li class="nav-item">
+              <a href="sanpham.html"><button>
+                <span
+                  class="text"
+                  style="
+                    font-size: 25px;
+                    font-weight: lighter;
+                    margin-left: 40px;
+                  "
+                  >Khám phá</span
+                ></a>
+                <div class="icon-container">
+                  <div class="icon icon--left">
+                    <svg>
+                      <use xlink:href="#arrow-right"></use>
+                    </svg>
+                  </div>
+                  <div class="icon icon--right">
+                    <svg>
+                      <use xlink:href="#arrow-right"></use>
+                    </svg>
+                  </div>
+                </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ** Content--------------0--------  -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide onee " id="slide__1">
+            <h1 class="tittle">HỒNG</h1>
+            <img
+              alt=" ..."
+              src="../img/hồng phaỉ.png"
+              class="pic1"
+            />
+            <img
+              alt="..."
+              src="../img/hồng trái.png"
+              class="pic2"
+            />
+          </div>
+          <div class="swiper-slide twoo" id="slide__2">
+            <h1 class="tittle">DÂU</h1>
+            <img
+              alt=" ..."
+              src="../img/dâu phải.png"
+              class="pic1"
+            />
+            <img
+              alt="..."
+              src="../img/dâu bóng.png"
+              class="pic2"
+            />
+          </div>
+          <div class="swiper-slide threee" id="slide__3">
+            <h1 class="tittle">CÀ CHUA</h1>
+			  <img
+              alt="..."
+              src="../img/cà chua trái.png"
+              class="pic2"
+            />
+			<img
+              alt="..."
+              src="../img/cà chua phải.png"
+              class="pic1"
+            />
+          </div>
+          <div class="swiper-slide fourr" id="slide__4">
+            <h1 class="tittle">BƠ</h1>
+            <img
+              alt=" ..."
+              src="../img/bơ trái.png"
+              class="pic2"
+            />
+            <img
+              alt="..."
+              src="../img/bơ phải.png"
+              class="pic1"
+            />
+          </div>
+          <div class="swiper-slide fivee" id="slide__5">
+            <h1 class="tittle">VIỆT QUẤT</h1>
+            <img
+              alt=" ..."
+              src="../img/việt quất phải.png"
+              class="pic1"
+            />
+            <img
+              alt="..."
+              src="../img/việt quất trái.png"
+              class="pic2"
+            />
+          </div>
+        </div>
+      </div>
+
+      <svg style="display: none">
+        <symbol id="arrow-right" viewBox="0 0 20 10">
+          <path
+            d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"
+          ></path>
+        </symbol>
+      </svg>
+    </div>
+
+    <!-- ! swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        cssMode: true,
+        clickable: true,
+        mousewheel: true,
+        keyboard: true,
+        autoplay: true,
+        loop: true,
+      });
+    </script>
+
+    <!-- !bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/myjs.js"
+			></script>
+  </body>
+</html>
